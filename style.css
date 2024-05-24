@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    background-image: url(assets/main_background.jpeg);
+    background-size: cover;
+}
+.navbar{
+    text-align: right;
+    margin-right: 4rem;
+    padding: 2rem;
+}
+.navbar a{
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.head{
+    font-size: 8rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.quote{
+    width: 30rem;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quote2{
+    width: 30rem;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 4rem;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.leaders{
+    background-color: rgb(66, 65, 65);
+    height: 230vh;
+    text-align: center;
+}
+.leaders h1{
+    color: white;
+    padding-top: 2rem;
+}
+.profile img{
+    width: 200px;
+    height: 250px;
+    margin: 3rem;
+}
+.profile p {
+    color: white;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+
+}
+.outer_contact{
+    width: 50%;
+    height: 45rem;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0 , 0, 0, 0.80), 0 10px 10px rgba(0 , 0, 0, 0.80); 
+    margin:  50px 300px 50px 300px ;
+    padding: 3rem  3rem 2rem 3rem ;
+    background-color: rgb(66, 65, 65);
+}
+.outer_contact:hover{
+    box-shadow: 4px 4px 15px teal;
+}
+label{
+    color: white;
+}
+input{
+    color: white;
+    font-weight:bold ; 
+}
+textarea{
+    color: white;
+    font-weight:bold ;
+}
+textarea:hover{
+    border: teal 2px solid; 
+}
+.det{
+    /* background-color: rgb(23, 21, 21); */
+    background-color: rgb(66, 65, 65);
+    border-radius: 0.2rem;
+    border: 0.1rem solid black;
+    box-shadow: 4px 8px -18px black;
+    padding: .5rem ;
+}
+.det:hover{
+    border: 2px solid teal;
+}
+#name{
+    width: 100%;
+}
+#phone{
+    width: 96%;
+}
+#email{
+    width: 96%;
+}
+#sub{
+    width: 96%;
+}
+#msg{
+    height: 180px;
+    width: 96%;
+}
+.send_msg{
+    height: 3rem;
+    width: 97%;
+    color:red;
+    font-size: 1.2rem;
+    padding:0px;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    margin-left: 0px;
+    /* background-color: #1c1d1e; */
+    box-shadow: 0 14px 28px rgba(0 , 0, 0, 0.80), 0 10px 10px rgba(0 , 0, 0, 0.80);
+    /* background-color: #1c1d1e; */
+    background-color: rgb(66, 65, 65);
+}
+a{
+    text-decoration: none;
+    border: 2px solid transparent;
+    color:black;
+    font-weight: 800;
+    color: white;
+    padding: 10px;
+}
+
+.arrow a{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(232, 224, 224);
+}
